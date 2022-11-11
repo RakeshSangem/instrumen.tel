@@ -9,6 +9,7 @@ module.exports = {
       gradientPink: "#F82CA6",
       gradientPurple: "#410B98",
       playlistBg: "#C0B1E0",
+      playlistsong: "#C4B9DB",
     },
   },
   plugins: [],
