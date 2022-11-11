@@ -44,13 +44,6 @@ export default function Home() {
           <section className="text-center">
             <h2 className="text-3xl font-medium text-center">
               Next.js Project Created using{" "}
-              <a
-                href="https://nextjs.org/docs/api-reference/create-next-app"
-                target="_blank"
-                className="text-indigo-300"
-              >
-                create-next-app
-              </a>
             </h2>
             <p className="mb-6">
               Officially maintained by the creators of Next.js
