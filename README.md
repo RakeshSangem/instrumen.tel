@@ -4,7 +4,7 @@ A music web app built for MLH hackathon
 
 ## Demo
 
-Check out the web app: [https://project-mate.vercel.app](https://project-mate.vercel.app)
+Check out the web app: [https://instrumental.vercel.app/](https://instrumental.vercel.app/)
 
 
 ## Tech stack
