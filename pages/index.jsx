@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      main.w-full.min-h-screen
+      <main className="w-full min-h-[90vh] bg-backgroundColor"></main>
     </div>
   );
 }
