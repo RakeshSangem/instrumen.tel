@@ -1,6 +1,6 @@
 
 # InstruMental
-A music web app built for MLH hackathon
+A music web app built for MLH hackathon - Do-Re-Mi Hacks 3
 
 ## Demo
 
