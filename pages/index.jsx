@@ -27,13 +27,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <main className="w-full min-h-[90vh] bg-backgroundColor">
+      <main className="font-raleway w-full min-h-[90vh] bg-backgroundColor">
         <section
           id="hero"
           className="max-w-[90vw] min-h-[90vh] m-auto flex justify-between items-center"
         >
           <article id="hero-text" className="flex flex-col gap-12 z-10">
-            <h1 className="text-7xl font-black text-primaryColor">
+            <h1 className="text-7xl font-bold text-primaryColor">
               Welcome to the <br /> Fun Side of Music
             </h1>
             <div className="flex items-center gap-12 relative">
@@ -45,7 +45,7 @@ export default function Home() {
               </div>
               <Link
                 href={"/playlist"}
-                className="px-6 h-[44px] rounded-md flex items-center gap-2 bg-gradient-to-l from-primaryColor to-secondaryColor hover:scale-105 duration-300 ease-in-out"
+                className="px-6 h-[44px] rounded-md flex items-center gap-2 bg-gradient-to-l from-gradientPurple to-gradientPink hover:scale-105 duration-300 ease-in-out"
               >
                 <Image
                   src={playMusic}
@@ -56,7 +56,7 @@ export default function Home() {
               </Link>
               <Link
                 href={`#`}
-                className="px-6 h-[44px] rounded-md flex items-center gap-2 bg-gradient-to-l from-primaryColor to-secondaryColor hover:scale-105 duration-300 ease-in-out"
+                className="px-6 h-[44px] rounded-md flex items-center gap-2 bg-gradient-to-l from-gradientPurple to-gradientPink hover:scale-105 duration-300 ease-in-out"
               >
                 <Image
                   src={playInstrument}
