@@ -1,4 +1,3 @@
-
 import Navbar from '../components/Navbar/navbar'
 import Image from "Next/Image"
 
