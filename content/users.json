@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Rakesh Sangem",
+    "role": "FrontEnd Developer",
+    "avatar": "https://avatars.githubusercontent.com/u/107752425?v=4",
+    "twitter": "https://www.twitter.com/RakeshSangem8",
+    "github": "https://www.github.com/RakeshSangem"
+  },
+  {
+    "name": "Sumit Kumar Soni",
+    "role": "FrontEnd Developer",
+    "avatar": "https://avatars.githubusercontent.com/u/93514460?v=4",
+    "twitter": "https://www.twitter.com/zelfroster",
+    "github": "https://www.github.com/zelfroster"
+  },
+  {
+    "name": "Mayank KS",
+    "role": "FrontEnd Developer",
+    "avatar": "https://pbs.twimg.com/profile_images/1503397761798262785/QaIsjBWw_400x400.jpg",
+    "twitter": "https://www.twitter.com/KsMayank",
+    "github": "https://www.github.com/Mayank-KS"
+  },
+  {
+    "name": "Vaibhav Singh",
+    "role": "Backend Developer",
+    "avatar": "https://avatars.githubusercontent.com/u/85750972?v=4",
+    "twitter": "https://www.twitter.com/VaibhavSinghDev",
+    "github": "https://www.github.com/VaibhavSinghDev"
+  },
+  {
+    "name": "Jaynarayan Vaishnav",
+    "role": "FullStack Developer",
+    "avatar": "https://pbs.twimg.com/profile_images/1541505895137284096/xF6uglYr_400x400.jpg",
+    "twitter": "https://www.twitter.com/jaystwtt",
+    "github": "https://github.com/jaynarayan-vaishnav"
+  }
+
+]
