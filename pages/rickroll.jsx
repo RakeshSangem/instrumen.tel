@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "../components/Navbar/navbar";
 import Image from 'next/image';
+import Duckroll from '../public/duckroll.jpg';
+import Rickroll from '../public/rickroll.gif';
 
 export default function RickRollPage() {
     return (
@@ -18,7 +20,7 @@ export default function RickRollPage() {
                     </div>
 
                     <Image
-                    src={"/../public/rickroll.gif"}
+                    src={Rickroll}
                     alt={"DJ Rakesh"}
                     width={400}
                     height={400}
@@ -27,7 +29,7 @@ export default function RickRollPage() {
                 
                 <div className="flex items-center px-40 p-10 py-10">
                 <Image
-                    src={"/../public/duckroll.jpg"}
+                    src={Duckroll}
                     alt={"DJ Rakesh"}
                     width={400}
                     height={400}
