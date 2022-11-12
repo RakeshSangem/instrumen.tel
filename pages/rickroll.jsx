@@ -5,12 +5,10 @@ import Image from 'next/image';
 export default function RickRollPage() {
     return (
         <div>
-            <head>
                 <title>History of Rick Roll</title>
-            </head>
             <Navbar />
             <main className="bg-backgroundColor text-center">
-                <h1 className="text-primaryColor font-semibold text-6xl py-12">What is RickRoll?</h1>
+                <div className="text-primaryColor font-semibold text-6xl py-12">What is RickRoll?</div>
                 <div className="flex items-center px-40 p-10 py-10">
                     <div className="p-5">
                     It is a prank and internet meme involving an unexpected appearance of a music video 
@@ -21,15 +19,16 @@ export default function RickRollPage() {
 
                     <Image
                     src={"/../public/rickroll.gif"}
+                    alt={"DJ Rakesh"}
                     width={400}
                     height={400}
                     />
                 </div>
                 
-                
                 <div className="flex items-center px-40 p-10 py-10">
                 <Image
                     src={"/../public/duckroll.jpg"}
+                    alt={"DJ Rakesh"}
                     width={400}
                     height={400}
                 />
