@@ -1,7 +1,11 @@
 module.exports = {
   content: ["./pages/**/*.{js,jsx}", "./components/**/*.{js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        raleway: ["Raleway", "sans-serif"],
+      },
+    },
     colors: {
       backgroundColor: "#E6E0EC",
       primaryColor: "#36018C",
