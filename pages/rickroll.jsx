@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
+
 import Navbar from "../components/Navbar/navbar";
 import Image from 'next/image';
 import Duckroll from '../public/duckroll.jpg';
 import Rickroll from '../public/rickroll.gif';
 
+let random = Math.random()*20000;
+
 export default function RickRollPage() {
+    useEffect(() => {
+        setTimeout(function() { window.location.replace('https://www.youtube.com/watch?v=dQw4w9WgXcQ'); }, 5000+random);
+    })
+
     return (
         <div>
-                <title>History of Rick Roll</title>
+            <title>History of Rick Roll</title>
             <Navbar />
             <main className="bg-backgroundColor text-center">
                 <div className="text-primaryColor font-semibold text-6xl py-12">What is RickRoll?</div>
