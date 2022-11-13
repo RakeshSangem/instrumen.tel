@@ -9,7 +9,7 @@ let random = Math.random()*20000;
 
 export default function RickRollPage() {
     useEffect(() => {
-        setTimeout(function() { window.location.replace('https://www.youtube.com/clip/UgkxMa1uFPSOf2YTHkZfCZ5Bpk1WgtkdbeOT'); }, 5000+random);
+        setTimeout(function() { window.location.replace('https://youtube.com/clip/UgkxU79cF7J6jVMz-_CGiWZWJERTc_4FZTLN'); }, 5000+random);
     })
 
     return (
