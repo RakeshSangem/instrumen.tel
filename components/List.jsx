@@ -1,7 +1,15 @@
 import Image from "next/image";
-import Follow from "../public/follow.svg"
+import React from "react";
+import follow from "../public/follow.svg";
+import { useState } from "react";
+import followred from "../public/followred.svg"
+
 
 function List({ music }) {
+  const [active, setActive] = useState(false)
+  function handleClick() {
+    setActive(!active)
+  }
   return (
     <div className=" border-b-2 border-backgroundColor/50 flex justify-items-start w-full justify-between">
       <div className="flex items-center">
@@ -12,7 +20,8 @@ function List({ music }) {
         </div>
       </div>
       <Image
-        src={Follow}
+        onClick={handleClick}
+        src={ active ? followred :follow}
         alt="heart shaped follow button" />
     </div>
   )
