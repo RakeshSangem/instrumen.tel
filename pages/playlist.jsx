@@ -4,10 +4,42 @@ import Navbar from "../components/Navbar/navbar";
 import Play from "../public/play.svg";
 import Previous from "../public/previous.svg"
 import Next from "../public/next.svg"
-import musiclist from "../content/musiclist.json"
+import {useSession, signIn, signOut} from 'next-auth/react';
+import {useState,useEffect} from 'react';
+import musiclist from "../content/musiclist.json";
 
-function Playlist() {
-  return (
+function Playlist () {
+  const {data } = useSession();
+  console.log(data);
+  useEffect(() => {
+    async function fetchPlaylist(){
+      if(data){
+
+        const plres = await fetch("https://api.spotify.com/v1/me/playlists",
+        {
+          headers: new Headers({
+          Authorization: `Bearer ${data.user.accessToken}`,
+          })
+          }
+        );
+        const pldata = await plres.json();
+        console.log({pldata});
+        
+        const res = await fetch( pldata.items[0].href, 
+        {
+        headers: new Headers({
+        Authorization: `Bearer ${data.user.accessToken}`,
+        })
+        })
+        const data2 = await res.json();
+        console.log(data2)
+      } 
+    }
+
+    fetchPlaylist();
+    
+  }, [data])
+  return(
     <div>
       <Navbar />
       <main className="w-full pt-6 min-h-[90vh] bg-backgroundColor">
@@ -39,5 +71,6 @@ function Playlist() {
     </div>
   )
 }
+
 
 export default Playlist;
