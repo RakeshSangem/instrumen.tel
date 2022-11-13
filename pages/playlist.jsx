@@ -6,6 +6,7 @@ import Previous from "../public/previous.svg"
 import Next from "../public/next.svg"
 import {useSession, signIn, signOut} from 'next-auth/react';
 import {useState,useEffect} from 'react';
+import musiclist from "../content/musiclist.json";
 
 function Playlist () {
   const {data } = useSession();
