@@ -44,7 +44,7 @@ export default function Home() {
                 <Image src={bgMusicTones} alt="floating-tunes" />
               </div>
               <Link
-                href={"/playlist"}
+                href={"/login"}
                 className="px-6 h-[44px] rounded-md flex items-center gap-2 bg-gradient-to-l from-gradientPurple to-gradientPink hover:scale-105 duration-300 ease-in-out"
               >
                 <Image
@@ -55,7 +55,7 @@ export default function Home() {
                 <p className="text-[#fff] text-lg font-semibold">Listen Now</p>
               </Link>
               <Link
-                href={`#`}
+                href={`/rickroll`}
                 className="px-6 h-[44px] rounded-md flex items-center gap-2 bg-gradient-to-l from-gradientPurple to-gradientPink hover:scale-105 duration-300 ease-in-out"
               >
                 <Image
@@ -64,7 +64,7 @@ export default function Home() {
                   className="w-5"
                 />
                 <p className="text-[#fff] text-lg font-semibold">
-                  Play Instruments
+                  What is Rickroll?
                 </p>
               </Link>
             </div>

@@ -9,9 +9,14 @@ function Navbar() {
       <Link href="/">
         <Image src={projectLogo} alt="project-logo" className="w-44"></Image>
       </Link>
-      <Link href="https://github.com/RakeshSangem/instrumen.tel">
-        <Image src={githubLogo} alt="project-logo"></Image>
-      </Link>
+      <div className="flex gap-4">
+        <Link href={"/team"} className="text-2xl text-primaryColor">
+          Our Team
+        </Link>
+        <Link href="https://github.com/RakeshSangem/instrumen.tel">
+          <Image src={githubLogo} alt="project-logo"></Image>
+        </Link>
+      </div>
     </nav>
   );
 }
